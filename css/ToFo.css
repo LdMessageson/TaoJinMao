@@ -1,0 +1,152 @@
+
+/********************header @start********************/
+.TOP {
+	width: 100%;
+	background: #1d1d1b;
+	overflow: hidden;
+	position:relative;
+	z-index: 99;
+}
+.TOP .nav {
+	/*width: 70%;*/
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+	background: #1d1d1b;
+}
+.TOP .nav img {
+	float: left;
+	width:136px;
+}
+.TOP .nav p {
+	margin: 0 15px;
+	float: right;
+	height: 58px;
+	padding: 0 1.2%;
+	border-bottom: 2px solid #1d1d1b;
+}
+.TOP .nav p a {
+	font-size: 2.0em;
+	font-family: "微软雅黑";
+	color: white;
+}
+.TOP .nav p:hover {
+	border-bottom: 2px solid #dd960f;
+}
+.nav p:hover a {
+	font-weight: 600;
+	color: #dd960f;
+}
+/********************header @end********************/
+/*-----------------------------------header*/
+.TOP {
+	width: 100%;
+	height: 60px;
+	background: #1d1d1b;
+	}
+.TOP .nav {
+	width: 70%;
+	height: 60px;
+}
+.TOP .nav img {
+	margin-right:3%;
+	float: left;
+	margin-top:10px;
+}
+.TOP .nav p {
+	padding:0 1%;
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.TOP .nav p a {
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: #dddddd;
+	text-decoration: none;
+}
+.TOP .nav p:hover {
+	border-bottom: 4px solid #de6924;
+	
+}
+.nav p:hover a {
+	font-size: 1.6em;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #de6924;
+}
+
+.FOOT{
+	width: 100%;
+	background:#333333;
+	position:relative;
+	z-index: 99999999;
+}
+.footer {
+    background: #333333 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    height: 300px;
+    line-height: 25px;
+}
+
+.footer_left {
+    float: left;
+    margin-top: 60px;
+    overflow: hidden;
+    width: 450px;
+}
+.footer_left a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.footer_center {
+    float: left;
+    margin-top: 60px;
+    overflow: hidden;
+    width: 200px;
+}
+.font_st {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 46px;
+}
+.footer_right {
+    float: left;
+    margin-top: 30px;
+    overflow: hidden;
+    width: 164px;
+}
+@media screen and (min-width:800px){
+	.TOP .nav{
+		width: 70%;
+	}
+	.footer{width: 1300px;}
+	.footer_center{
+		margin-left: 210px;
+	}
+	.footer_right{
+		 margin-left:250px;
+	}
+}
+@media screen and (max-device-width:800px){
+	.TOP .nav{
+		width: 100%;
+	}
+	.footer{
+		width: 98%;
+	}
+	.footer_center{
+		margin-left: 16px;
+	}
+	.footer_right{
+		 margin-left:100px;
+	}
+	.footer_left{
+		margin-left:10px;
+	}
+}

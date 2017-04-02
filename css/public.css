@@ -1,0 +1,20 @@
+html body{
+	font-size:62.5%;
+	/*min-width: 1180px;*/
+}
+* {
+	padding: 0;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+em, i, strong {
+	font-style: normal;
+} 
+div,h1,h2,h3,h4,h5,h6,p,span,em,i,ul,li,ol,strong,a {
+	font-family: "微软雅黑";
+}
